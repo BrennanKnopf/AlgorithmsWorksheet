@@ -28,3 +28,12 @@ def compress_string2(uncompressed_string):
     print(new_string) #print the new string
 
 compress_string2(uncompressed_string)
+
+word = input('Type any word. Lets see if its a palindrome.')
+
+if word == word[::-1]:
+    print('Yes this is a palindrome.')
+else:
+    print('Sorry thats not a palindrome.')
+
+
